@@ -29,7 +29,7 @@ deploy:
     secure: 7e3fb146-23b4-4ffc-a573-1377f8e7cbe0
   app: test-my-travisci-project
   on:
-    repo: jimting/GitProjectTutorialExample
+    repo: c8610290927/GitProjectTutorialExample
   #Setting your heroku Procfile here!!!
   run:
     "web: gunicorn app_run:app"
